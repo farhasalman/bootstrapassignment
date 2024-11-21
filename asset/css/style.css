@@ -1,0 +1,91 @@
+.first-section {
+    background: url('./images/img/img/the-town-bg-01.jpg');
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    position: relative;
+  }
+
+  
+  
+  .first-section p {
+    font-size: 1.5rem;
+  }
+  
+  .first-section a {
+    font-size: 2rem;
+    background: white;
+    color: black;
+  }
+
+  #work .gallery-image {
+    width: 100%; 
+    height: 300px; 
+    border-radius: 8px; 
+}
+
+  
+  .contact-us-section {
+    background: url('contact-background.jpg') center/cover no-repeat;
+  }
+  
+  .contact-us-section p {
+    font-size: 1rem;
+  }
+  
+  footer {
+    background: url('./images/img/img/the-town-bg-02.jpg') center/cover no-repeat; 
+  }
+  
+  footer h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  footer ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+  }
+  
+  footer form .form-control {
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+  }
+  
+  footer form .btn {
+    border-radius: 0;
+  }
+  
+  footer p {
+    font-size: 0.8rem;
+  }
+  .gallery-image{
+
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+
+
+  /* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#home{
+    background-image: url(./images/img/img/the-town-bg-01.jpg);
+    background-size: 100% 100%;
+    height:100vh;
+    width:100%;
+} */
